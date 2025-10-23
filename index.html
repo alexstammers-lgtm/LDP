@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LDP Webpages</title>
+
+  <style>
+    /* Simple centered layout */
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      background: radial-gradient(circle at center, #163457, #0b1828);
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      letter-spacing: 0.05em;
+    }
+
+    .btn {
+      background: #3fa9f5;
+      color: #fff;
+      border: none;
+      padding: 14px 40px;
+      font-size: 1.1rem;
+      border-radius: 12px;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+    .btn:hover {
+      background: #69c3ff;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Lewisburg Downtown Partnership</h1>
+    <button class="btn" onclick="location.href='./map/index.html'">
+      View Interactive Map
+    </button>
+  </div>
+</body>
+</html>
